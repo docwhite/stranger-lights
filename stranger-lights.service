@@ -1,0 +1,8 @@
+[Unit]
+Description=Stranger Lights
+
+[Service]
+ExecStart=/usr/bin/python /home/eleven/stranger-lights.py
+
+[Install]
+WantedBy=multi-user.target
