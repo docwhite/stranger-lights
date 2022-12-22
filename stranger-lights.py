@@ -61,7 +61,7 @@ for x in range(2):
 pixels.fill(FINAL_COL)
 pixels.show()
 
-# time.sleep(180)
+time.sleep(180)
 
 for x in range(100):
   pixels.fill(RED)
@@ -83,5 +83,5 @@ for x in range(100):
   pixels.show()
   time.sleep(0.05)
 
-# from subprocess import call
-# call("sudo shutdown -h now", shell=True)
+from subprocess import call
+call("sudo shutdown -h now", shell=True)
